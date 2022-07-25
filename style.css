@@ -1,0 +1,173 @@
+/*=========
+=VARIABLES=
+=========*/
+:root {
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+/*=========
+==GENERAL==
+=========*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: var(--pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+/*=========
+===TEXT====
+=========*/
+h1 {
+    font-size: 1.75rem;
+}
+
+h1, h2 {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3, .btn h3, a {
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+a {
+    color: var(--bright-blue);
+}
+
+.desat {
+    color: var(--desaturated-blue);
+}
+
+/*=========
+==LAYOUT===
+=========*/
+
+.container {
+    display: flex;
+}
+
+.hero-img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card {
+    width: min(460px, 90%);
+    margin: 10vh auto;
+    background-color: #fff;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 0px 20px 25px hsla(245, 75%, 52%, 0.15);
+}
+
+.text-container {
+    width: 80%;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.text-container > * {
+    margin-block: 15px;
+}
+
+.tagline {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan {
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4em;
+}
+
+.icon {
+    margin-right: 1em;
+    height: 40px;
+}
+
+/*=========
+==BUTTON===
+=========*/
+
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bright-blue);
+    color: #fff;
+    width: 100%;
+    padding-block: 1.25em;
+    box-shadow: 0px 10px 20px hsla(245, 75%, 52%, 0.3);
+}
+
+/*=========
+HOVER STATES
+=========*/
+
+button:hover, button:active, .change:hover, .change:active{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.change:hover, .change:active {
+    text-decoration: none;
+}
+
+.cancel:hover, .cancel:active {
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+/*=========
+MEDIA QUERIES
+=========*/
+@media only screen and (max-width: 425px) {
+    .body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .text-container {
+        width: 85%;
+    }
+    .tagline {
+        width: 95%;
+    }
+}
+
+/*=========
+==FOOTER===
+=========*/
+.attribution { 
+    font-size: 0.8rem;
+    text-align: center;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: 0.8rem;
+}
+
