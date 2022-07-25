@@ -66,7 +66,7 @@ Some areas I'd like to continue to develop are:
 
 ## Author
 
-- Website - [emmaclarm.github.io](https://emmaclarem.github.io/)
+- Website - [emmaclarem.github.io](https://emmaclarem.github.io/)
 - Frontend Mentor - [@emmaclarem](https://www.frontendmentor.io/profile/emmaclarem)
 - LinkedIn - [Emma Miller](https://www.linkedin.com/in/emma-c-miller/)
 
