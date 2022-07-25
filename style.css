@@ -25,6 +25,10 @@ body {
     background-color: var(--pale-blue);
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*=========
@@ -72,7 +76,7 @@ a {
 
 .card {
     width: min(450px, 90%);
-    margin: 10vh auto;
+    margin: 75px auto;
     background-color: #fff;
     border-radius: 20px;
     flex-direction: column;
