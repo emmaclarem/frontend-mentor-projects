@@ -76,7 +76,7 @@ a {
 
 .card {
     width: min(450px, 90%);
-    margin: 75px auto;
+    margin: 80px auto;
     background-color: #fff;
     border-radius: 20px;
     flex-direction: column;
@@ -86,7 +86,7 @@ a {
 .text-container {
     flex-direction: column;
     width: 80%;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 
 .text-container > * {
@@ -94,8 +94,9 @@ a {
 }
 
 .tagline {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+    line-height: 1.7em;
 }
 
 .plan {
@@ -103,12 +104,16 @@ a {
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em;
+    padding: 1.75em;
+}
+
+.plan-details {
+    align-items: center;
 }
 
 .icon {
     margin-right: 1em;
-    height: 40px;
+    height: 100%;
 }
 
 /*=========
