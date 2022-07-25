@@ -99,7 +99,7 @@ a {
 }
 
 p.tagline {
-    line-height: 1.5em;
+    line-height: 1.55em;
 }
 
 .plan {
@@ -107,7 +107,7 @@ p.tagline {
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    padding: 1.75em;
+    padding: 1.6em;
 }
 
 .plan-details {
