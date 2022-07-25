@@ -96,6 +96,9 @@ a {
 .tagline {
     width: 85%;
     margin: 0 auto;
+}
+
+p.tagline {
     line-height: 1.7em;
 }
 
