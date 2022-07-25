@@ -71,7 +71,7 @@ a {
 }
 
 .card {
-    width: min(460px, 90%);
+    width: min(450px, 90%);
     margin: 10vh auto;
     background-color: #fff;
     border-radius: 20px;
@@ -80,9 +80,9 @@ a {
 }
 
 .text-container {
-    width: 80%;
-    margin: 20px auto;
     flex-direction: column;
+    width: 80%;
+    margin: 25px auto;
 }
 
 .text-container > * {
@@ -99,7 +99,7 @@ a {
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4em;
+    padding: 1.5em;
 }
 
 .icon {
@@ -118,8 +118,8 @@ button {
     background-color: var(--bright-blue);
     color: #fff;
     width: 100%;
-    padding-block: 1.25em;
-    box-shadow: 0px 10px 20px hsla(245, 75%, 52%, 0.3);
+    padding-block: 1.15em;
+    box-shadow: 0px 12px 25px hsla(245, 75%, 52%, 0.4);
 }
 
 /*=========
@@ -161,7 +161,7 @@ MEDIA QUERIES
 /*=========
 ==FOOTER===
 =========*/
-.attribution { 
+/* .attribution { 
     font-size: 0.8rem;
     text-align: center;
 }
@@ -169,5 +169,5 @@ MEDIA QUERIES
 .attribution a { 
     color: hsl(228, 45%, 44%); 
     font-size: 0.8rem;
-}
+} */
 
